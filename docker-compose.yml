@@ -7,7 +7,7 @@ services:
     environment:
       MICRO_REGISTRY: "mdns"
   
-  consignment-services:
+  consignment-service:
     build: ./consignment-service
     ports:
       - 50051:50051
