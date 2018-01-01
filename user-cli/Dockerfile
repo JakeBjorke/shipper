@@ -1,6 +1,6 @@
 FROM golang:1.9.2 as builder
 
-WORKDIR /go/src/girhub.com/jakebjorke/shipper/user-cli
+WORKDIR /go/src/github.com/jakebjorke/shipper/user-cli
 COPY . .
 
 RUN go get -u github.com/golang/dep/cmd/dep
